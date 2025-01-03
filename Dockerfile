@@ -8,7 +8,7 @@ ENV DEBIAN_FRONTEND=non-interactive \
 
 # Install necessary tools, zsh, and set up locale
 RUN apt-get update && \
-    apt-get install --no-install-recommends -y zsh wget git curl locales && \
+    apt-get install --no-install-recommends -y zsh wget git curl locales && \ 
     sed -i -e 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen && \
     locale-gen && \
     # Cleanup apt cache
