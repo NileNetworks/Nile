@@ -1,0 +1,10 @@
+[run]
+source = Nilenetworks
+omit =
+    Nilenetworks/prompts/*
+    Nilenetworks/language_models/utils.py
+	Nilenetworks/parsing/para_sentence_split.py
+
+
+[html]
+directory = coverage_html_report
