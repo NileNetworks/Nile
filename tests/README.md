@@ -3,7 +3,7 @@
 Sometimes it's useful to run tests with global settings, e.g.
 
 ```python
-pytest -s tests/ --nc --show
+pytest -s tests/ --nc --show 
 ```
 
 The options `--nc` and `--show` are global settings that are defined in 
