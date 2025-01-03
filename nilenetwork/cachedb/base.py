@@ -3,7 +3,7 @@ from typing import Any, Dict, List
 
 from Nilenetworks.pydantic_v1 import BaseSettings
 
-
+ 
 class CacheDBConfig(BaseSettings):
     """Configuration model for CacheDB."""
 
