@@ -2,8 +2,7 @@
 
 SHELL := /bin/bash
 
-.PHONY: setup update
-
+.PHONY: setup update 
 setup: ## Setup the git pre-commit hooks
 	poetry run pre-commit install
 
@@ -14,7 +13,7 @@ update: ## Update the git pre-commit hooks
 type-check:
 	@poetry run pre-commit install
 	@poetry run pre-commit autoupdate
-	@poetry run pre-commit run --all-files
+	@poetry run pre-commit run --all-files 
 	@echo "Running black..."
 	@black --check .
 	@echo "Running flake8 on git-tracked files ONLY! ..."
