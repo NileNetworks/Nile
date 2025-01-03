@@ -1,23 +1,8 @@
 
-<h3 align="center">![1500x500](https://github.com/user-attachments/assets/42ad068d-2655-45d6-8661-1b5b85ca57ae)
+![1500x500](https://github.com/user-attachments/assets/9fe9521a-be81-4664-b1c8-23e25a871c15)
 
-  <a target="_blank" 
-    href="https://Nilenetworks.github.io/Nilenetworks/" rel="dofollow">
-      <strong>Documentation</strong></a>
-  &middot;
-  <a target="_blank" href="https://github.com/Nilenetworks/Nilenetworks-examples" rel="dofollow">
-      <strong>Examples Repo</strong></a>
-  &middot;
-  <a target="_blank" href="https://discord.gg/ZU36McDgDs" rel="dofollow">
-      <strong>Discord</strong></a>
-  &middot;
-  <a target="_blank" href="./CONTRIBUTING.md" rel="dofollow">
-      <strong>Contributing</strong></a>
-
-  <br />
-</h3>
-
-`Nilenetworks` is an intuitive, lightweight, extensible and principled
+`Nilenetworks`
+is an intuitive, lightweight, extensible and principled
 Python framework to easily build LLM-powered applications, from CMU and UW-Madison researchers. 
 You set up Agents, equip them with optional components (LLM, 
 vector-store and tools/functions), assign them tasks, and have them 
